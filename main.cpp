@@ -31,7 +31,7 @@ int main()
         cin >> itemInput;
 
         if (numItems >=5 || numItems < 0)
-            cout << "You'll need a bigger list" << endl;
+            cout << "You'll need a bigger list!" << endl;
 
         else if (numItems < 5)
         {
