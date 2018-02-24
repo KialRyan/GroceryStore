@@ -27,7 +27,6 @@ int main()
 
     else if (input == 'A' || input == 'a')
     {
-        myFlag = true;
         cout <<"What is the item?"<< endl;
         cin >> itemInput;
 
@@ -40,6 +39,6 @@ int main()
             numItems++;
         }
       }
-   } while (!myFlag);  
+   } while (myFlag== false);  
   return 0;
 }
