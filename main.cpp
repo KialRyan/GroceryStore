@@ -17,13 +17,12 @@ int main()
   cout<<"\nEnter your choice: ";
   cout<<"\n (A)dd an item";
   cout<<"\n (Q)uit";
-  cout<<"\nYour choice (A/Q): ";
+  cout<<"\nYour choice (A/Q): ==ITEMS TO BUY=="<<endl;
   cin>> input;
 
     if (input == 'Q' || input == 'q')
     {
        myFlag = true;
-       cout<<"\n==ITEMS TO BUY==<<";
        cout<<"\n1 "<< list[0]; 
        cout<<"\n2 "<< list[1];
        cout<<"\n3 "<< list[2];
