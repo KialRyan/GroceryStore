@@ -23,6 +23,13 @@ int main()
     if (input == 'Q' || input == 'q')
     {
        myFlag = true;
+       cout<<"\n==ITEMS TO BUY==<<";
+       cout<<"\n1 "<< list[0]; 
+       cout<<"\n2 "<< list[1];
+       cout<<"\n3 "<< list[2];
+       cout<<"\n4 "<< list[3];
+       cout<<"\n5 "<< list[4]<<endl;
+
     }
 
     else if (input == 'A' || input == 'a')
