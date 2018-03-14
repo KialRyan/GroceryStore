@@ -23,6 +23,12 @@ int main()
 
     if (input == 'Q' || input == 'q')
     {
+     if(numItems=0)
+      {
+      cout<<"No items to buy!";
+      }
+     else
+     {
        myFlag = true;
        cout<<"==ITEMS TO BUY=="<<endl;
        for(int counter=0;counter<numItems;counter++)
@@ -30,6 +36,7 @@ int main()
        cout<<listNum<<" "<<list[counter]<<endl;
        listNum++;
        }
+     }
     }
 
     else if (input == 'A' || input == 'a')
